@@ -1,0 +1,7 @@
+{
+  "name": "Edu IS",
+  "description": "An intelligent accounting assistant for business administration students. It helps in solving problems, learning concepts, practicing exercises, and generating financial statements with step-by-step explanations.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "short_name": "EduAccount",
+  "name": "EduAccount Pro",
+  "description": "An intelligent accounting assistant for business administration students. It helps in solving problems, learning concepts, practicing exercises, and generating financial statements with step-by-step explanations.",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff"
+}

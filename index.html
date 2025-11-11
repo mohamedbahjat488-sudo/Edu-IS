@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#2563eb" />
+    <title>EduAccount Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                light: '#3b82f6', // blue-500
+                DEFAULT: '#2563eb', // blue-600
+                dark: '#1d4ed8',  // blue-700
+              },
+              secondary: {
+                light: '#f0f9ff', // blue-50
+                DEFAULT: '#e0f2fe', // blue-100
+                dark: '#dbeafe',  // blue-200
+              },
+              background: {
+                light: '#f8fafc', // slate-50
+                dark: '#0f172a'   // slate-900
+              },
+              surface: {
+                light: '#ffffff',
+                dark: '#1e293b' // slate-800
+              },
+              text: {
+                light: '#0f172a', // slate-900
+                dark: '#f1f5f9'  // slate-100
+              },
+              'text-secondary': {
+                light: '#64748b', // slate-500
+                dark: '#94a3b8'  // slate-400
+              }
+            },
+            fontFamily: {
+              sans: ['Tajawal', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.0",
+    "react/": "https://esm.sh/react@^19.2.0/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.29.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-background-light dark:bg-background-dark">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
